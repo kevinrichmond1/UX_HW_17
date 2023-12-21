@@ -35,3 +35,9 @@ footer {
     vertical-align: bottom;
     width: 1900px;
 }
+.content {
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+    display: flex;
+}
