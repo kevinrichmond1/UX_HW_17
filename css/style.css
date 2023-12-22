@@ -55,3 +55,11 @@ footer {
     transition-duration: 0.4s;
     cursor: pointer;
 }
+header {
+    background-color: #E7D1B5;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
