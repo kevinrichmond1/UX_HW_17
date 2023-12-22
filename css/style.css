@@ -1,8 +1,9 @@
 .nav {
     background-color: #E7D1B5;
-    display: inline-block;
+    display: flex;
     vertical-align: top;
-    width: 1900px;
+    width: 100%;
+    justify-content: space-between;
 }
 .inline-block {
     display: inline-block;
@@ -33,7 +34,9 @@ footer {
     background-color: #E7D1B5;
     display: inline-block;
     vertical-align: bottom;
-    width: 1900px;
+    width: 100%;
+    height: auto;
+    text-align: center;
 }
 .content {
     height: 500px;
