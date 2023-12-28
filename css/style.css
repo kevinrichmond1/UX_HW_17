@@ -66,9 +66,3 @@ header {
 header img {
     max-height: 50px;
 }
-.grid-container {
-    display: inline-grid;
-    row-gap: 25px;
-    width: 500px;
-    height: 500px;
-  }
