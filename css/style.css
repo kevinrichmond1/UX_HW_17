@@ -4,6 +4,8 @@
     vertical-align: top;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
+    height: 90px;
 }
 .inline-block {
     display: inline-block;
@@ -14,17 +16,9 @@
     padding: 1%;
     text-align: auto;
 }
-nav {
-    width: 73%;
-    padding: 1%;
-}
 ul {
     width: 50%;
     margin-left: auto;
-}
-.heroimg {
-    height: 600px;
-    padding: 25px;
 }
 footer {
     background-color: #E7D1B5;
@@ -37,10 +31,9 @@ footer {
 .content {
     height: 500px;
     width: 500px;
-    display: inline-block;
-    display: flex;
     border: none;
     margin: 0 auto;
+    padding: 25px;
 }
 .content button {
     background-color: white;
@@ -55,14 +48,14 @@ footer {
     transition-duration: 0.4s;
     cursor: pointer;
 }
-header {
-    background-color: #E7D1B5;
-    color: #fff;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 header img {
     max-height: 50px;
+}
+.skills {
+    background-color: #E7D1B5;
+    text-align: center;
+}
+.work {
+    background-color: #E7D1B5;
+    text-align: center;
 }
