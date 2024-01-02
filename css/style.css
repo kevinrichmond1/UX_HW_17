@@ -1,5 +1,5 @@
 .nav {
-    background-color: white;
+    background-color: #E7D1B5;
     display: flex;
     vertical-align: top;
     width: 100%;
@@ -19,19 +19,12 @@ a {
     text-align: auto;
 }
 footer {
-    background-color: white;
+    background-color: #E7D1B5;
     display: inline-block;
     vertical-align: bottom;
     width: 100%;
     height: auto;
     text-align: center;
-}
-.content {
-    height: 500px;
-    width: 500px;
-    border: none;
-    margin: 0 auto;
-    padding: 25px;
 }
 .image {
     height: 500px;
@@ -83,25 +76,31 @@ header img {
 }
 
 
-/* Need to somehow fix this grid */
 
-.image { grid-area: image; }
-.text { grid-area: text; }
-.item4 { grid-area: button; }
+/* Try and get this image moved to the right with the text on the left */
 
-.grid-container {
-    display: grid;
-    align-items: center;
-    grid-template-columns: auto auto auto;
-    grid-template-areas: 
-    'text' 'image' 'image'
-    'text' 'image' 'image'
-    'text' 'button' ;
-}
 .image>img {
     width: 100%;
     height: 100%;
 }
 body {
     background-color: #E7D1B5;
+}
+.text {
+    font-size: 20px;
+}
+p {
+    font-size: 20px;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 35px;
+}
+h4 {
+    font-size: 35px;
+}
+h1 {
+    font-size: 35px;
 }
